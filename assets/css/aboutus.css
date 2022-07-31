@@ -1,0 +1,32 @@
+.industries-dev-root {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.header-common-center-div {
+    padding-bottom: 50px;
+}
+
+.tech-dev-bx-card:hover {
+    box-shadow: 30px 30px 60px 0 #0b0e1d2e;
+    /* border: red solid; */
+    border-radius: 20px;
+    /* transition: all; */
+    /* transition: 0.5s; */
+    transition: all .8s;
+    padding: 30px;
+}
+
+.tech-dev-bx-card-inner .content-div h3{
+
+    font-size: 19px;
+    padding-top: 20px;
+
+}
+
+.tech-dev-bx-card-inner{
+    /* padding-top: 10px; */
+}

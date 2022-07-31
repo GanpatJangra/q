@@ -1,0 +1,257 @@
+:root { 
+    --blue: #007bff; 
+    --indigo: #6610f2; 
+    --purple: #6f42c1; 
+    --pink: #e83e8c; 
+    --red: #dc3545; 
+    --orange: #fd7e14; 
+    --yellow: #ffc107; 
+    --green: #28a745; 
+    --teal: #20c997; 
+    --cyan: #17a2b8; 
+    --white: #fff; 
+    --gray: #6c757d; 
+    --gray-dark: #343a40; 
+    --primary: #007bff; 
+    --secondary: #6c757d; 
+    --success: #28a745; 
+    --info: #17a2b8; 
+    --warning: #ffc107; 
+    --danger: #dc3545; 
+    --light: #f8f9fa; 
+    --dark: #343a40; 
+    --breakpoint-xs: 0; 
+    --breakpoint-sm: 576px; 
+    --breakpoint-md: 768px; 
+    --breakpoint-lg: 992px; 
+    --breakpoint-xl: 1200px; 
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; 
+    --blue: #007bff; 
+    --indigo: #6610f2; 
+    --purple: #6f42c1; 
+    --pink: #e83e8c; 
+    --red: #dc3545; 
+    --orange: #fd7e14; 
+    --yellow: #ffc107; 
+    --green: #28a745; 
+    --teal: #20c997; 
+    --cyan: #17a2b8; 
+    --white: #fff; 
+    --gray: #6c757d; 
+    --gray-dark: #343a40; 
+    --primary: #007bff; 
+    --secondary: #6c757d; 
+    --success: #28a745; 
+    --info: #17a2b8; 
+    --warning: #ffc107; 
+    --danger: #dc3545; 
+    --light: #f8f9fa; 
+    --dark: #343a40; 
+    --breakpoint-xs: 0; 
+    --breakpoint-sm: 576px; 
+    --breakpoint-md: 768px; 
+    --breakpoint-lg: 992px; 
+    --breakpoint-xl: 1200px; 
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+} 
+
+:root { 
+    --pfamily: 'Poppins', sans-serif; 
+    --text: #777777; 
+    --gray: #f5f5f5; 
+    --white: #ffffff; 
+    --border: #e8e8e8; 
+    --heading: #48455a; 
+    --primary: #f06334; 
+    --placeholder: #777777; 
+    --light-white: #e7e7e7; 
+    --navbar-fixed: #ffeded; 
+    --service-icon: #f7f7f7; 
+    --resume-icon: #ffdddd; 
+    --banner-bg: #fcfcfd; 
+    --testi-card: #fff3f3; 
+    --testi-star: #ffbbbb; 
+    --contact-form: #fff3f3; 
+    --feature-card: #ffeded; 
+    --pricing-gdnt: linear-gradient(#ff9068, #ff4b1f); 
+    --pfamily:  "Poppins", sans-serif; 
+    --text:  #777777; 
+    --gray:  #f5f5f5; 
+    --white:  #ffffff; 
+    --border:  #e8e8e8; 
+    --heading:  #48455a; 
+    --primary:  #f06334; 
+    --placeholder:  #777777; 
+    --light-white:  #e7e7e7; 
+    --navbar-fixed:  #ffeded; 
+    --service-icon:  #f7f7f7; 
+    --resume-icon:  #ffdddd; 
+    --banner-bg:  #fcfcfd; 
+    --testi-card:  #fff3f3; 
+    --testi-star:  #ffbbbb; 
+    --contact-form:  #fff3f3; 
+    --feature-card:  #ffeded; 
+    --pricing-gdnt:  linear-gradient(#ff9068, #ff4b1f);
+
+} 
+
+.section-heading p{
+    text-align: center;
+}
+.section-heading h2{
+    text-align: center;
+}
+
+.skills-card { 
+    background: var(--white); 
+
+    text-align: center; 
+    border-radius: 5px; 
+    padding: 30px 0px 0px; 
+    margin-bottom: 30px; 
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.15); 
+    transition: all linear .3s; 
+    transform: scale(1); 
+
+    text-align: center; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    padding-top: 30px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    margin-bottom: 30px; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 35px 0px; 
+    transition-duration: 0.3s; 
+    transition-timing-function: linear; 
+    transition-delay: 0s; 
+    transition-property: all; 
+    transform: scale(1);
+
+} 
+
+.skills-card:hover { 
+    transform: scale(1.05); 
+    background: var(--primary); 
+    transform: scale(1.05); 
+
+} 
+
+
+
+
+.skills-img { 
+    width: 60px; 
+    height: 60px; 
+    line-height: 60px; 
+    text-align: center; 
+    border-radius: 50%; 
+    margin: 0px auto 30px; 
+    transition: all linear .3s; 
+    width: 60px; 
+    height: 60px; 
+    line-height: 60px; 
+    text-align: center; 
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%; 
+    border-bottom-right-radius: 50%; 
+    border-bottom-left-radius: 50%; 
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 30px; 
+    margin-left: auto; 
+    transition-duration: 0.3s; 
+    transition-timing-function: linear; 
+    transition-delay: 0s; 
+    transition-property: all;
+
+} 
+
+.skills-name { 
+    border-top: 1px solid var(--border); 
+  
+
+} 
+
+.section-heading p span  { 
+    color: var(--primary); 
+    color: var(--primary);
+
+} 
+
+img { 
+    vertical-align: middle; 
+    border-style: none; 
+    vertical-align: middle; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-bottom-style: none; 
+    border-left-style: none;
+
+} 
+
+img { 
+    vertical-align: middle; 
+    vertical-align: middle;
+
+} 
+
+.skills-img img  { 
+    width: auto; 
+    height: 60px; 
+    transition: all linear .3s; 
+    width: auto; 
+    height: 60px; 
+    transition-duration: 0.3s; 
+    transition-timing-function: linear; 
+    transition-delay: 0s; 
+    transition-property: all;
+
+} 
+
+.skills-name p  { 
+    color: var(--heading); 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    padding: 8px 0px; 
+    transition: all linear .3s; 
+    color: var(--heading); 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    padding-top: 8px; 
+    padding-right: 0px; 
+    padding-bottom: 8px; 
+    padding-left: 0px; 
+    transition-duration: 0.3s; 
+    transition-timing-function: linear; 
+    transition-delay: 0s; 
+    transition-property: all;
+
+} 
+
+.skills-card:hover .skills-img  { 
+    background: var(--white); 
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.2); 
+ 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 30px 0px;
+
+} 
+
+.skills-card:hover .skills-img img  { 
+    height: 35px; 
+    height: 35px;
+
+} 
+
+.skills-card:hover .skills-name p  { 
+    color: var(--white); 
+    color: var(--white);
+
+} 
+
+
